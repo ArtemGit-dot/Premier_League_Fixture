@@ -22,8 +22,16 @@ private lateinit var binding: FragmentMatchInformationBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.backButton.setOnClickListener {
-            MAIN.navController.navigate(R.id.action_matchInformation_to_listOfMatches)
+        val matchDetails = MatchDetails()
+
+        binding.MatchNumber.text = "Match Number: ${matchDetails.MatchNumber}"
+        binding.RoundNumber.text = "Round Number: ${matchDetails.RoundNumber}"
+        binding.DateUtc.text = "Date Utc: ${matchDetails.DateUtc}"
+        binding.Location.text = "Location: ${matchDetails.Location}"
+        binding.HomeTeam.text = "Home Team: ${matchDetails.HomeTeam}"
+        binding.AwayTeam.text = "Away Team: ${matchDetails.AwayTeam}"
+        binding.Group.text = "Group: ${matchDetails.Group}"
+        binding.HomeTeamScore.text = "Home Team Score: ${matchDetails.HomeTeamScore}"
+        binding.AwayTeamScore.text = "Away Team Score: ${matchDetails.AwayTeamScore}"
         }
     }
-}

@@ -5,4 +5,14 @@
     <string name="list_of_matches">Показать матчи</string>
     <string name="All_matches">Все матчи</string>
     <string name="Match_information">Информация о матче</string>
+    <string name="MatchNumber">Match Number: </string>
+    <string name="RoundNumber">Round Number: </string>
+    <string name="DateUtc">Date Utc: </string>
+    <string name="Location">Location: </string>
+    <string name="HomeTeam">Home Team: </string>
+    <string name="AwayTeam">Away Team: </string>
+    <string name="Group">Group: </string>
+    <string name="HomeTeamScore">Home Team Score: </string>
+    <string name="AwayTeamScore">Away Team Score: </string>
+    <string name="Settings">Settings </string>
 </resources>
