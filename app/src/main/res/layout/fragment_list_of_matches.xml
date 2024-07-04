@@ -20,15 +20,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/card_view_design" />
+
     <Button
-        android:id="@+id/btnInformation"
-        android:layout_width="300dp"
+        android:id="@+id/btnChangeView"
+        android:layout_width="200dp"
         android:layout_height="60dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/Match_information"
+        android:layout_marginTop="4dp"
+        android:text="@string/changeTheView"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 

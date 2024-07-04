@@ -24,14 +24,14 @@ private lateinit var binding: FragmentMatchInformationBinding
 
         val matchDetails = MatchDetails()
 
-        binding.MatchNumber.text = "Match Number: ${matchDetails.MatchNumber}"
-        binding.RoundNumber.text = "Round Number: ${matchDetails.RoundNumber}"
-        binding.DateUtc.text = "Date Utc: ${matchDetails.DateUtc}"
-        binding.Location.text = "Location: ${matchDetails.Location}"
-        binding.HomeTeam.text = "Home Team: ${matchDetails.HomeTeam}"
-        binding.AwayTeam.text = "Away Team: ${matchDetails.AwayTeam}"
-        binding.Group.text = "Group: ${matchDetails.Group}"
-        binding.HomeTeamScore.text = "Home Team Score: ${matchDetails.HomeTeamScore}"
-        binding.AwayTeamScore.text = "Away Team Score: ${matchDetails.AwayTeamScore}"
+        binding.MatchNumber.text = "Match Number: ${matchDetails.matchNumber}"
+        binding.RoundNumber.text = "Round Number: ${matchDetails.roundNumber}"
+        binding.DateUtc.text = "Date Utc: ${matchDetails.dateUtc}"
+        binding.Location.text = "Location: ${matchDetails.location}"
+        binding.HomeTeam.text = "Home Team: ${matchDetails.homeTeam}"
+        binding.AwayTeam.text = "Away Team: ${matchDetails.awayTeam}"
+        binding.Group.text = "Group: ${matchDetails.group}"
+        binding.HomeTeamScore.text = "Home Team Score: ${matchDetails.homeTeamScore}"
+        binding.AwayTeamScore.text = "Away Team Score: ${matchDetails.awayTeamScore}"
         }
     }

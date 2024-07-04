@@ -4,13 +4,13 @@ import java.time.LocalDate
 import java.util.Date
 
 data class MatchDetails(
-    val MatchNumber : Int = 1,
-    val RoundNumber : Int = 1,
-    val DateUtc: LocalDate = LocalDate.now(),
-    val Location : String = "Brentford Community Stadium",
-    val HomeTeam : String = "Brentford",
-    val AwayTeam : String = "Arsenal",
-    val Group : String? = null,
-    val HomeTeamScore : Int = 2,
-    val AwayTeamScore : Int = 0
+    val matchNumber : Int = 1,
+    val roundNumber : Int = 1,
+    val dateUtc: LocalDate = LocalDate.now(),
+    val location : String = "Brentford Community Stadium",
+    val homeTeam : String = "Brentford",
+    val awayTeam : String = "Arsenal",
+    val group : String? = null,
+    val homeTeamScore : Int = 2,
+    val awayTeamScore : Int = 0
 )
